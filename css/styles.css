@@ -1,3 +1,32 @@
-bodyy {
+#header {
+    background-color: #C9E4CA;
+    margin-left: 0px;
+    margin-top: 0px;
+    height: 200px;
+    width: 200px;
+    borderß: solid  10px;
+    position: relative;
+}
+
+#middle {
+    background-color: red;
+    height: 200px;
+    width: 200px;
+
+}
+
+#footer {
     background-color: blue;
+    height: 200px;
+    width: 200px;
+
+}
+
+h1 {
+    margin-block-start: 0px;;
+    margin-inline-start: 0px;
+}
+
+body {
+    margin: 0px;
 }
