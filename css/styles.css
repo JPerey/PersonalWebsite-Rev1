@@ -1,9 +1,26 @@
+/*-------------------- element stylings --------------------*/
+
+#blurb {
+    display:inline-block;
+    width: 50%;
+}
+
 body {
     margin: 0px;
     text-align: center;
 }
 
-.header {
+#copyright {
+    margin: 0;
+    padding-top: 20px;
+}
+
+#coffee-blurb {
+    display: inline-block;
+    margin-top: 0px;
+}
+
+.top-container {
     background-color: #152C2C;
     padding-top: 100px;
     padding-bottom: 620px;
@@ -16,6 +33,14 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+}
+
+.middle-container {
+    background-color: #152C2C;
+}
+
+.bottom-container {
+    background-color: #152C2C;
 }
 
 h1 {
@@ -39,28 +64,11 @@ h3, h5 {
     margin-bottom: 0px;
 }
 
-#dota-pic {
-    border-radius: 25%;
-    width: 40%;
-}
-
-#tarot-pic {
-    border-radius: 25%;
-    width: 40%;
-}
-
-#flashcard-pic {
-    border-radius: 25%;
-    width: 40%;
-}
-
-#spaceinvaders-pic {
-    border-radius: 25%;
-    width: 40%;
-}
-
-.header-side-text {
-    color: #152C2D;
+#jam {
+    display:block;
+    margin:auto;
+    border-radius: 100%;
+    width:20%;
 }
 
 p {
@@ -69,43 +77,21 @@ p {
     margin-bottom: 0px;
 }
 
-table {
-    margin-left: auto;
-    margin-right: auto;
-    font-family: "Montserrat", sans-serif;
-    color:#E8EBE4;
-    width: 80%;
-}
-
-#skills-table{
-    text-align: center;
-
-}
-
-.table-head {
-    width: 20%;
-}
-
 span {
     text-decoration: underline;
 }
 
-.middle-container {
-    background-color: #152C2C;
-
-
+.top-side-text {
+    color: #152C2D;
 }
 
-.bottom-container {
-    background-color: #152C2C;
+/*-------------------- image stylings --------------------*/
 
-
-}
-
-#rocket {
-    width: 10%;
-    position: absolute;
-    margin: auto;
+#attribution-icon {
+    width: 30px;
+    position: fixed;
+    left: 10px;
+    top: 210px;
 }
 
 #bottom-cloud {
@@ -113,27 +99,9 @@ span {
     bottom: 300px;
 }
 
-#top-cloud {
-    display: block;
-    position: absolute;
-    right: 400px;
-}
-
-#mountain {
-    display: block;
-    margin: auto;
-}
-
-#jam {
-    display:block;
-    margin:auto;
-    border-radius: 100%;
-    width:20%;
-}
-
-#copyright {
-    margin: 0;
-    padding-top: 20px;
+#coffee-icon {
+    display:inline-block;
+    width: 15px;
 }
 
 #cv {
@@ -143,39 +111,80 @@ span {
     top: 10px;
 }
 
-#yt-icon {
-    width: 30px;
-    position: fixed;
-    left: 50px;
-    top: 10px;
-}
-
-#github-icon {
-    width: 30px;
-    position: fixed;
-    left: 90px;
-    top: 10px;
-}
-
-#linkedin-icon {
-    width: 30px;
-    position: fixed;
-    left: 130px;
-    top: 10px;
+#dota-pic {
+    border-radius: 25%;
+    width: 40%;
 }
 
 #email-icon {
     width: 30px;
     position: fixed;
-    left: 170px;
-    top: 10px;
+    left: 10px;
+    top: 170px;
 }
 
-#coffee {
-    margin-top: 0px;
+#flashcard-pic {
+    border-radius: 25%;
+    width: 40%;
 }
 
-#blurb {
-    display:inline-block;
-    width: 50%;
+#github-icon {
+    width: 30px;
+    position: fixed;
+    left: 10px;
+    top: 90px;
+}
+
+#linkedin-icon {
+    width: 30px;
+    position: fixed;
+    left: 10px;
+    top: 130px;
+}
+
+#rocket {
+    width: 10%;
+    position: absolute;
+    margin: auto;
+}
+
+#spaceinvaders-pic {
+    border-radius: 25%;
+    width: 40%;
+}
+
+#tarot-pic {
+    border-radius: 25%;
+    width: 40%;
+}
+
+#top-cloud {
+    display: block;
+    position: absolute;
+    right: 400px;
+}
+
+#yt-icon {
+    width: 30px;
+    position: fixed;
+    left: 10px;
+    top: 50px;
+}
+
+/*-------------------- table stylings --------------------*/
+
+#skills-table{
+    text-align: center;
+
+}
+table {
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Montserrat", sans-serif;
+    color:#E8EBE4;
+    width: 80%;
+}
+
+.table-head {
+    width: 20%;
 }
