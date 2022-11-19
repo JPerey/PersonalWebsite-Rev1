@@ -3,26 +3,61 @@ body {
     text-align: center;
 }
 
-#header {
-    background-color: #C9E4CA;
+.header {
+    background-color: #152C2C;
     padding-top: 100px;
+    padding-bottom: 620px;
+    margin-right: auto;
+    margin-left: auto;
     position: relative;
     font-family: "Monospace", sans-serif;
+    background: url("../images/Untitled_Artwork.png") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
 
+h2 {
+    background-color: aliceblue;
+    display: inline-block;
+    margin: auto 10 auto 10;
+    box-shadow: 10px -5px #AE612E;
+}
+
+.header-side-text {
+    color: #152C2D;
+}
+
+p {
+    font-family: monospace, sans-serif;
+    color: #E8EBE4;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    font-family: monospace, sans-serif;
+    color:#E8EBE4;
+    width: 75%;
+}
+
+th {
+    text-align: center;
 }
 
 span {
     text-decoration: underline;
 }
 
-#middle {
-    background-color: red;
+.middle-container {
+    background-color: #152C2C;
 
 
 }
 
-#footer {
-    background-color: blue;
+.bottom-container {
+    background-color: #152C2C;
 
 
 }
@@ -31,6 +66,7 @@ h1 {
     width: 10%;
     margin: 0 auto 0 auto;
     font-family: "Sono", monospace;
+    color: #152C2D;
 }
 
 h2 {
@@ -41,12 +77,47 @@ h3 {
     font-family: "Montserrat", sans-serif;
 }
 
+#rocket {
+    width: 10%;
+    position: absolute;
+    margin: auto;
+}
+
 #bottom-cloud {
     position: absolute;
     bottom: 300px;
 }
 
 #top-cloud {
+    display: block;
     position: absolute;
     right: 400px;
+}
+
+#mountain {
+    display: block;
+    margin: auto;
+}
+
+#jam {
+    display:block;
+    margin:auto;
+    border-radius: 100%;
+    width:20%;
+}
+
+#copyright {
+    margin: 0;
+}
+
+#yt-icon {
+    width: 20px;
+}
+
+#github-icon {
+    width: 20px;
+}
+
+#linkedin-icon {
+    width: 20px;
 }
