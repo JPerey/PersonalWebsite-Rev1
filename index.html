@@ -16,6 +16,16 @@
 
 <body>
     <div class="header">
+        <a class="btn-link" href="resume/SE Resume - Jam Jam James Perey.pdf" download="SE Resume - Jam Jam James Perey.pdf"><img id="cv" src="images/cv.png" alt="icon of resume"></a>
+        <a class="btn-link" href="mailto:jamjam.perey@gmail.com"><img id="email-icon" src="images/email.png"
+                alt="email icon"></a>
+        <a class="btn-link" href="https://www.linkedin.com/in/jamjamperey/"><img id="linkedin-icon"
+                src="images/linkedin.png" alt="linkedin icon"></a>
+        <a class="btn-link" href="https://github.com/JPerey"><img id="github-icon" src="images/github.png"
+                alt="github icon"></a>
+        <a class="btn-link" href="https://www.youtube.com/channel/UCaOyw1r9UDD57QZ9GRTrAuQ"><img id="yt-icon"
+                src="images/youtube.png" alt="youtube icon"></a>
+
         <img id="top-cloud" src="images/cloud.png" alt="picture of a cloud">
         <h1 id="jam-title">I'm Jam</h1>
         <p class="header-side-text">A <span>pro</span>grammer.</p>
@@ -42,13 +52,14 @@
         <div class="skills">
             <h2>Skills & Experience</h2>
             <table>
-                <thead>
+                <thead id="skills-table">
                     <tr>
-                        <th> Software Eng. Skills </th>
-                        <th> Mechanical Eng. Skills </th>
-                        <th> Soft Skills </th>
+                        <th class="table-head"> Software Eng. Skills </th>
+                        <th class="table-head"> Mechanical Eng. Skills </th>
+                        <th class="table-head"> Soft Skills </th>
                     </tr>
-                <tbody >
+                </thead>
+                <tbody>
                     <tr>
                         <td>Python</td>
                         <td>Revit 2015-2022</td>
@@ -66,8 +77,8 @@
                         <td>Empathy</td>
                     </tr>
                     <tr>
-                        <td >Django</td>
-                        <td >AutoCAD</td>
+                        <td>Django</td>
+                        <td>AutoCAD</td>
                     </tr>
                     <tr>
                         <td>React.js</td>
@@ -89,33 +100,36 @@
                         <td>SQL</td>
                     </tr>
                 </tbody>
-                </thead>
 
             </table>
 
             <div class="projects">
                 <h2> Projects</h2>
+                <table>
+                    <thead>
+                        <th><img id="dota-pic" src="images/Dota-Picker.png" alt="picture of dota website"></th>
+                        <th><img id="tarot-pic" src="images/Tarot-Diary.png" alt="picture of tarot diary website"></th>
+                        <th><img id="flashcard-pic" src="images/Flashcard-Project.png"
+                                alt="picture of flashcard project"></th>
+                        <th><img id="spaceinvaders-pic" src="images/Space-Invaders.png"
+                                alt="picture of space invaders project"></th>
+                    </thead>
+
+                </table>
 
             </div>
 
         </div>
         <div class="contact-me">
             <h2>Get In Touch</h2>
-            <h3>Lorem ipsum dolor sit amet, non elit.</h3>
-            <p>Lorem ipsum dolor sit amet, in quis, aenean amet. Phasellus sodales, tellus donec dui, ornare erat.</p>
-            <a class="btn" href="mailto:name@email.com">CONTACT ME</a>
+            <h3>I would love to talk about anything coding, gaming, or websites you need help building!</h3>
         </div>
     </div>
 
 
     <div class="bottom-container">
-        <a class="footer-link" href="https://www.linkedin.com/in/jamjamperey/"><img id="linkedin-icon"
-                src="images/linkedin.png" alt="linkedin icon"></a>
-        <a class="footer-link" href="https://github.com/JPerey"><img id="github-icon" src="images/github.png"
-                alt="github icon"></a>
-        <a class="footer-link" href="https://www.youtube.com/channel/UCaOyw1r9UDD57QZ9GRTrAuQ"><img id="yt-icon"
-                src="images/youtube.png" alt="youtube icon"></a>
         <p id="copyright">© 2022 Jam Jam James Perey.</p>
+        <h5 id="coffee">created by sleepless nights and endless coffee</h5>
     </div>
 
 </body>
