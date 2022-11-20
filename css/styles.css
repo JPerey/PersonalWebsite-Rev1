@@ -1,13 +1,21 @@
 /*-------------------- element stylings --------------------*/
 
+a {
+    color: #E8EBE4;
+}
+
 #blurb {
-    display:inline-block;
+    display: inline-block;
     width: 50%;
 }
 
 body {
     margin: 0px;
     text-align: center;
+}
+
+#btns {
+    display: fixed;
 }
 
 #copyright {
@@ -28,7 +36,7 @@ body {
     margin-left: auto;
     position: relative;
     font-family: "Montserrat", sans-serif;
-    background: url("../images/Untitled_Artwork.png") no-repeat center center;
+    background: url("../images/background.png") no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -57,24 +65,27 @@ h2 {
     box-shadow: 10px -5px #AE612E;
 }
 
-h3, h5 {
+h3,
+h5 {
     font-family: "Montserrat", sans-serif;
     margin-bottom: 0px;
-    color:#E8EBE4;
+    color: #E8EBE4;
     margin-bottom: 0px;
 }
 
-#jam {
-    display:block;
-    margin:auto;
-    border-radius: 100%;
-    width:20%;
+hr {
+    border: 0px;
 }
 
 p {
     font-family: "Montserrat", sans-serif;
     color: #E8EBE4;
     margin-bottom: 0px;
+}
+
+#project-title {
+    display: inline;
+    margin: auto;
 }
 
 span {
@@ -94,14 +105,24 @@ span {
     top: 210px;
 }
 
+#attribution-icon-atr {
+    width: 30px;
+    position: relative;
+}
+
 #bottom-cloud {
     position: absolute;
     bottom: 300px;
 }
 
 #coffee-icon {
-    display:inline-block;
+    display: inline-block;
     width: 15px;
+}
+
+#coffee-icon-atr {
+    position: relative;
+    width: 30px;
 }
 
 #cv {
@@ -111,9 +132,14 @@ span {
     top: 10px;
 }
 
+#cv-atr {
+    width: 30px;
+    position: relative;
+}
+
 #dota-pic {
-    border-radius: 25%;
-    width: 40%;
+    border-radius: 10%;
+    width: 100%;
 }
 
 #email-icon {
@@ -123,9 +149,14 @@ span {
     top: 170px;
 }
 
+#email-icon-atr {
+    width: 30px;
+    position: relative;
+}
+
 #flashcard-pic {
-    border-radius: 25%;
-    width: 40%;
+    border-radius: 10%;
+    width: 100%;
 }
 
 #github-icon {
@@ -135,11 +166,41 @@ span {
     top: 90px;
 }
 
+#github-icon-atr {
+    width: 30px;
+    position: relative;
+}
+
+#homepage-icon {
+    width: 30px;
+    position: fixed;
+    left: 10px;
+    top: 250px;
+}
+
+#homepage-icon-atr {
+    width: 30px;
+    position: relative;
+}
+
+#jam {
+    display: block;
+    margin: auto;
+    border-radius: 100%;
+    width: 20%;
+    left:100px
+}
+
 #linkedin-icon {
     width: 30px;
     position: fixed;
     left: 10px;
     top: 130px;
+}
+
+#linkedin-icon-atr {
+    width: 30px;
+    position: relative;
 }
 
 #rocket {
@@ -149,19 +210,18 @@ span {
 }
 
 #spaceinvaders-pic {
-    border-radius: 25%;
-    width: 40%;
+    border-radius: 10%;
+    width: 100%;
+}
+
+#scp-pic {
+    border-radius: 10%;
+    width: 100%;
 }
 
 #tarot-pic {
-    border-radius: 25%;
-    width: 40%;
-}
-
-#top-cloud {
-    display: block;
-    position: absolute;
-    right: 400px;
+    border-radius: 10%;
+    width: 100%;
 }
 
 #yt-icon {
@@ -171,20 +231,184 @@ span {
     top: 50px;
 }
 
+#yt-icon-atr {
+    width: 30px;
+    position: relative;
+}
+
 /*-------------------- table stylings --------------------*/
 
-#skills-table{
+#skills-table {
     text-align: center;
 
 }
+
 table {
     margin-left: auto;
     margin-right: auto;
     font-family: "Montserrat", sans-serif;
-    color:#E8EBE4;
+    color: #E8EBE4;
     width: 80%;
 }
 
 .table-head {
     width: 20%;
+}
+
+#atr-table {
+    text-align: center;
+}
+
+.table-head-atr {
+    width: 5%;
+}
+
+/*-------------------- project - hover animation --------------------*/
+
+.container {
+    position: relative;
+    display: inline-block;
+    width: 18%;
+}
+
+.overlay {
+    position: absolute;
+    border-radius: 10%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #0B3954;
+}
+
+.container:hover .overlay {
+    opacity: 1;
+}
+
+.text {
+    color: E8EBE4;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+/*-------------------- cloud - movement animation --------------------*/
+
+#cloud1 {
+    display: inline-block;
+    position: absolute;
+    top:200px;
+    left:25%;
+}
+
+#cloud-atr {
+    position: relative;
+    width:30px;
+}
+
+#cloud2 {
+    display: inline-block;
+    position: absolute;
+    top:-200px;
+    left: 25%;
+}
+
+#cloud3 {
+    display: inline-block;
+    position: absolute;
+    top:450px;
+    left: 15%;
+}
+
+#cloud4 {
+    display: inline-block;
+    position: absolute;
+    top:530px;
+    left: 15%;
+}
+
+@-webkit-keyframes animateCloud {
+    0% {
+        margin-left: -1000px;
+    }
+    100% {
+        margin-left: 100%;
+    }
+}
+
+@-moz-keyframes animateCloud {
+    0% {
+        margin-left: -1000px;
+    }
+    100% {
+        margin-left: 100%;
+    }
+}
+
+@keyframes animateCloud {
+    0% {
+        margin-left: -1000px;
+    }
+    100% {
+        margin-left: 100%;
+    }
+}
+
+.move-cloud1 {
+	-webkit-animation: animateCloud 30s linear infinite;
+	-moz-animation: animateCloud 30s linear infinite;
+	animation: animateCloud 30s linear infinite;
+	
+	-webkit-transform: scale(0.65);
+	-moz-transform: scale(0.65);
+	transform: scale(0.65);
+}
+
+.move-cloud2 {
+	-webkit-animation: animateCloud 35s linear infinite;
+	-moz-animation: animateCloud 35s linear infinite;
+	animation: animateCloud 35s linear infinite;
+	
+	-webkit-transform: scale(0.5);
+	-moz-transform: scale(0.5);
+	transform: scale(0.5);
+}
+
+.move-cloud3 {
+	-webkit-animation: animateCloud 20s linear infinite;
+	-moz-animation: animateCloud 20s linear infinite;
+	animation: animateCloud 20s linear infinite;
+	
+	-webkit-transform: scale(1.2);
+	-moz-transform: scale(1.2);
+	transform: scale(1.2);
+}
+
+.move-cloud4 {
+	-webkit-animation: animateCloud 45s linear infinite;
+	-moz-animation: animateCloud 45s linear infinite;
+	animation: animateCloud 45s linear infinite;
+	
+	-webkit-transform: scale(0.45);
+	-moz-transform: scale(0.45);
+	transform: scale(0.45);
+}
+
+.move-cloud5 {
+	-webkit-animation: animateCloud 45s linear infinite;
+	-moz-animation: animateCloud 45s linear infinite;
+	animation: animateCloud 45s linear infinite;
+	
+	-webkit-transform: scale(0.45);
+	-moz-transform: scale(0.45);
+	transform: scale(0.45);
 }

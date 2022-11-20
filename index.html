@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jam Jam James Perey</title>
+    <title>JJJP - Main Page</title>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="icon" href="css/favicon.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -16,31 +16,47 @@
 
 <body>
     <div class="top-container">
-        <a class="btn-link" href="resume/SE Resume - Jam Jam James Perey.pdf"
-            download="SE Resume - Jam Jam James Perey.pdf"><img id="cv" src="images/cv.png" alt="icon of resume"></a>
-        <a class="btn-link" href="mailto:jamjam.perey@gmail.com"><img id="email-icon" src="images/email.png"
-                alt="email icon"></a>
-        <a class="btn-link" href="https://www.linkedin.com/in/jamjamperey/"><img id="linkedin-icon"
-                src="images/linkedin.png" alt="linkedin icon"></a>
-        <a class="btn-link" href="https://github.com/JPerey"><img id="github-icon" src="images/github.png"
-                alt="github icon"></a>
-        <a class="btn-link" href="https://www.youtube.com/channel/UCaOyw1r9UDD57QZ9GRTrAuQ"><img id="yt-icon"
-                src="images/youtube.png" alt="youtube icon"></a>
-        <a class="btn-link" href="attributes.html"><img id="attribution-icon" src="images/tag.png"
-                alt="attribution icon"></a>
+        <div id="btns">
+            <a class="btn-resume" href="resume/SE Resume - Jam Jam James Perey.pdf"
+                download="SE Resume - Jam Jam James Perey.pdf"><img id="cv" src="images/cv.png"
+                    alt="icon of resume"></a>
+            <a class="btn-email" href="mailto:jamjam.perey@gmail.com"><img id="email-icon" src="images/email.png"
+                    alt="email icon"></a>
+            <a class="btn-linkedin" href="https://www.linkedin.com/in/jamjamperey/"><img id="linkedin-icon"
+                    src="images/linkedin.png" alt="linkedin icon"></a>
+            <a class="btn-github" href="https://github.com/JPerey"><img id="github-icon" src="images/github.png"
+                    alt="github icon"></a>
+            <a class="btn-youtube" href="https://www.youtube.com/channel/UCaOyw1r9UDD57QZ9GRTrAuQ"><img id="yt-icon"
+                    src="images/youtube.png" alt="youtube icon"></a>
+            <a class="btn-attribution" href="attributes.html"><img id="attribution-icon" src="images/tag.png"
+                    alt="attribution icon"></a>
+            <a class="btn-home" href="index.html"><img id="homepage-icon" src="images/homepage.png"
+                    alt="picture of home"></a>
+        </div>
 
-        <img id="top-cloud" src="images/cloud.png" alt="picture of a cloud">
+        <div class="move-cloud1">
+            <img id="cloud1" src="images/cloud.png" alt="picture of a cloud">
+        </div>
+        <div class="move-cloud2">
+            <img id="cloud2" src="images/cloud.png" alt="picture of cloud 2">
+        </div>
+        <div class="move-cloud3">
+            <img id="cloud3" src="images/cloud.png" alt="picture of cloud 2">
+        </div>
+        <div class="move-cloud4">
+            <img id="cloud4" src="images/cloud.png" alt="picture of cloud 2">
+        </div>
+
         <h1 id="jam-title">I'm Jam</h1>
         <p class="top-side-text">A <span>pro</span>grammer.</p>
         <p class="top-side-text">Javascript & Python articulate programmer with a side of illustration, mathematics,
             and nerdiness.</p>
-        <img id="rocket" src="images/rocket.png" alt="picture of rocket">
-        <img id="bottom-cloud" src="images/cloud.png" alt="picture of cloud 2">
     </div>
     <div class="middle-container">
         <div class="profile">
             <h2>Hello.</h2>
-            <img id="jam" src="images/profile picture.jpeg" alt="picture of jam">
+            <hr>
+            <img id="jam" src="images/profile-pic1.png" alt="picture of jam">
             <p id="blurb"> A mechanical engineer who models by day and programs by night; I have developed technical
                 skills that will flow beautifully into the software engineer space. These skills have been learned from
                 sleepless nights, and even more coding bugs - technical design, programming, and punctual deliverance. I
@@ -98,26 +114,73 @@
                     <tr>
                         <td>SQL</td>
                     </tr>
+                    <tr>
+                        <td>Express.js</td>
+                    </tr>
                 </tbody>
 
             </table>
 
-            <div class="projects">
-                <h2> Projects</h2>
-                <table>
-                    <thead>
-                        <th><img id="dota-pic" src="images/Dota-Picker.png" alt="picture of dota website"></th>
-                        <th><img id="tarot-pic" src="images/Tarot-Diary.png" alt="picture of tarot diary website"></th>
-                        <th><img id="flashcard-pic" src="images/Flashcard-Project.png"
-                                alt="picture of flashcard project"></th>
-                        <th><img id="spaceinvaders-pic" src="images/Space-Invaders.png"
-                                alt="picture of space invaders project"></th>
-                    </thead>
-
-                </table>
-
+        </div>
+        <div class="projects">
+            <h2 id="project-title"> Projects</h2>
+            <hr>
+            <div class="container">
+                <th><img id="dota-pic" src="images/Dota-Picker.png">
+                    <div class="overlay">
+                        <p>Dota Team Picker</p>
+                        <hr>
+                        <p>Website that helps indecisive gamers pick a team of 5 heros to play dota 2.</p>
+                        <hr>
+                        <a href="https://zen-bhabha-0c70cb.netlify.app/"> Live Version</a>
+                    </div>
+                </th>
             </div>
-
+            <div class="container">
+                <th><img id="tarot-pic" src="images/Tarot-Diary.png" alt="picture of tarot diary website">
+                    <div class="overlay">
+                        <p>Tarot Diary</p>
+                        <hr>
+                        <p>Website for users to journal their tarot readings based on three different reading options,
+                            as well as recall their readings.</p>
+                        <hr>
+                        <a href="https://project-2-tarot-diary.herokuapp.com/"> Live Version</a>
+                    </div>
+                </th>
+            </div>
+            <div class="container">
+                <th><img id="flashcard-pic" src="images/Flashcard-Project.png" alt="picture of flashcard project">
+                    <div class="overlay">
+                        <p>Flashcard Helper</p>
+                        <hr>
+                        <p>Program that allows the user upload a flashcard csv to help study different languages.</p>
+                        <hr>
+                        <a href="https://github.com/JPerey/FlashCardMemorizer"> Github Repo</a>
+                    </div>
+                </th>
+            </div>
+            <div class="container">
+                <th><img id="spaceinvaders-pic" src="images/Space-Invaders.png" alt="picture of space invaders project">
+                </th>
+                <div class="overlay">
+                    <p>Space invaders</p>
+                    <hr>
+                    <p>Faithful representation of a classic shooter video game.</p>
+                    <hr>
+                    <a href="https://github.com/JPerey/PythonSpaceInvadersGame"> Github Repo</a>
+                </div>
+            </div>
+            <div class="container">
+                <th><img id="scp-pic" src="images/SCP.png" alt="picture of scp database website">
+                    <div class="overlay">
+                        <p>SCP Database Collection</p>
+                        <hr>
+                        <p>Website to catalogue SCP sightings and showcase CRUD implementation.</p>
+                        <hr>
+                        <a href="https://scp-collector-1.herokuapp.com/">live Version</a>
+                    </div>
+                </th>
+            </div>
         </div>
         <div class="contact-me">
             <h2>Get In Touch</h2>
