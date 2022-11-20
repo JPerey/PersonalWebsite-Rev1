@@ -311,7 +311,7 @@ table {
     display: inline-block;
     position: absolute;
     top:200px;
-    left:25%;
+    left:5%;
 }
 
 #cloud-atr {
@@ -323,47 +323,47 @@ table {
     display: inline-block;
     position: absolute;
     top:-200px;
-    left: 25%;
+    left: 5%;
 }
 
 #cloud3 {
     display: inline-block;
     position: absolute;
     top:450px;
-    left: 15%;
+    left: 5%;
 }
 
 #cloud4 {
     display: inline-block;
     position: absolute;
     top:530px;
-    left: 15%;
+    left: 5%;
 }
 
 @-webkit-keyframes animateCloud {
     0% {
-        margin-left: -1000px;
+        margin-left: -500px;
     }
     100% {
-        margin-left: 100%;
+        margin-left: 85%;
     }
 }
 
 @-moz-keyframes animateCloud {
     0% {
-        margin-left: -1000px;
+        margin-left: -500px;
     }
     100% {
-        margin-left: 100%;
+        margin-left: 85%;
     }
 }
 
 @keyframes animateCloud {
     0% {
-        margin-left: -1000px;
+        margin-left: -500px;
     }
     100% {
-        margin-left: 100%;
+        margin-left: 85%;
     }
 }
 
@@ -392,9 +392,9 @@ table {
 	-moz-animation: animateCloud 20s linear infinite;
 	animation: animateCloud 20s linear infinite;
 	
-	-webkit-transform: scale(1.2);
-	-moz-transform: scale(1.2);
-	transform: scale(1.2);
+	-webkit-transform: scale(0.9);
+	-moz-transform: scale(0.9);
+	transform: scale(0.9);
 }
 
 .move-cloud4 {
