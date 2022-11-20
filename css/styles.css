@@ -104,6 +104,9 @@ span {
 
 .top-side-text {
     color: #152C2D;
+    width:70%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /*-------------------- image stylings --------------------*/
