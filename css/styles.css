@@ -88,6 +88,10 @@ p {
     margin: auto;
 }
 
+#pro-blurb {
+    color: #152C2D;
+}
+
 span {
     text-decoration: underline;
 }
