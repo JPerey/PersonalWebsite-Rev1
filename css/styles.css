@@ -405,9 +405,9 @@ table {
 }
 
 .move-cloud3 {
-	-webkit-animation: animateCloud 20s linear infinite;
-	-moz-animation: animateCloud 20s linear infinite;
-	animation: animateCloud 20s linear infinite;
+	-webkit-animation: animateCloud 15s linear infinite;
+	-moz-animation: animateCloud 15s linear infinite;
+	animation: animateCloud 15s linear infinite;
 	
 	-webkit-transform: scale(0.8);
 	-moz-transform: scale(0.8);
